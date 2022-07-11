@@ -1,0 +1,273 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1799549463,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SmartBearSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 316637,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate invalid login attempt",
+        "description": "",
+        "id": "smartbear-login-functionality;validate-invalid-login-attempt",
+        "after": [
+          {
+            "result": {
+              "duration": 3104274856,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 293289427,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on \"http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx\"",
+                  "offset": 11
+                }
+              ],
+              "location": "BaseSteps.userNavigatesTo(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63797741,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters username as \"abcd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd\"",
+                  "offset": 24
+                }
+              ],
+              "location": "SmartBearSteps.userEntersUsernameAs(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53585262,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters password as \"abcd1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd1234\"",
+                  "offset": 24
+                }
+              ],
+              "location": "SmartBearSteps.userEntersPasswordAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89776229,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on Login button",
+            "match": {
+              "location": "SmartBearSteps.userClicksOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83390761,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should see \"Invalid Login or Password.\" Message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid Login or Password.\"",
+                  "offset": 16
+                }
+              ],
+              "location": "SmartBearSteps.userShouldSeeMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1047166482,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SmartBearSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 54351,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Validate valid login attempt",
+        "description": "",
+        "id": "smartbear-login-functionality;validate-valid-login-attempt",
+        "after": [
+          {
+            "result": {
+              "duration": 3116510613,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 339715053,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on \"http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx\"",
+                  "offset": 11
+                }
+              ],
+              "location": "BaseSteps.userNavigatesTo(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 65678309,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters username as \"Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tester\"",
+                  "offset": 24
+                }
+              ],
+              "location": "SmartBearSteps.userEntersUsernameAs(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51865071,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters password as \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 24
+                }
+              ],
+              "location": "SmartBearSteps.userEntersPasswordAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 529939173,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on Login button",
+            "match": {
+              "location": "SmartBearSteps.userClicksOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4591186,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user should be routed to \"http://secure.smartbearsoftware.com/samples/testcomplete12/weborders/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://secure.smartbearsoftware.com/samples/testcomplete12/weborders/\"",
+                  "offset": 25
+                }
+              ],
+              "location": "SmartBearSteps.userShouldBeRoutedTo(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Smartbear Login Functionality",
+    "description": "",
+    "id": "smartbear-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/smartbear.feature",
+    "tags": []
+  }
+]
